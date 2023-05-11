@@ -9,6 +9,7 @@ yarn-error.log
 .env
 .next
 .expo
+/.idea
 
 #-------------------------------
 # Visual Studio
