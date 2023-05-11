@@ -1,6 +1,18 @@
 {
     "platforms": {},
-    "plugins": {},
+    "plugins": {
+        "react": "source:rnv",
+        "react-art": "source:rnv",
+        "react-dom": "source:rnv",
+        "react-native": "source:rnv",
+        "@react-native-community/cli-platform-ios": "source:rnv",
+        "@react-native-community/cli": "source:rnv",
+        "react-native-tvos": "source:rnv",
+        "react-native-web": "source:rnv",
+        "next": "source:rnv",
+        "react-native-windows": "source:rnv",
+        "@react-native-windows/cli": "source:rnv"
+    },
     "extendsTemplate": "@rnv/template-starter/renative.json",
     "projectName": "renative",
     "workspaceID": "rnv",
@@ -36,6 +48,5 @@
         }
     },
     "currentTemplate": "@rnv/template-starter",
-    "isNew": true,
     "isMonorepo": false
 }
